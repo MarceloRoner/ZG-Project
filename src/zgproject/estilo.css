@@ -1,0 +1,30 @@
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #e0f7fa);
+    font-family: "Arial", sans-serif;
+}
+
+
+.botao-opcao {
+    -fx-font-size: 14px;
+    -fx-background-color: #80deea;
+    -fx-text-fill: #004d40;
+    -fx-background-radius: 8;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+}
+
+.botao-opcao:hover {
+    -fx-background-color: #4dd0e1; 
+}
+
+
+.area-texto {
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 13px;
+    -fx-text-fill: #004d40;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #4dd0e1;
+    -fx-border-width: 1px;
+    -fx-padding: 10;
+}
